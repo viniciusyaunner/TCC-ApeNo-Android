@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="388dp"
+            android:layout_height="256dp"
+            app:srcCompat="@drawable/login"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="328dp"
+            android:layout_height="105dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="118dp"
+            android:text="É onde onde se efetua o login pra acessar o sistema."
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            app:fontFamily="monospace"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <Button
+            android:id="@+id/voltarfologi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:background="#565656"
+            android:text="Voltar"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

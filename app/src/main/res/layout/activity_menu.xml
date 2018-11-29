@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/empre"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:background="#565656"
+            android:text="Empresa"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="109dp" />
+
+        <Button
+            android:id="@+id/soft"
+            android:layout_width="159dp"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="186dp"
+            android:background="#565656"
+            android:text="Software"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/sob"
+            android:layout_width="105dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="88dp"
+            android:background="#565656"
+            android:text="sobre"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="345dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

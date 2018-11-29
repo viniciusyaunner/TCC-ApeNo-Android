@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@android:style/Theme.Translucent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApeNo">
+
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="487dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <Button
+            android:id="@+id/init"
+            android:layout_width="145dp"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="104dp"
+            android:background="#313f4f"
+            android:text="Iniciar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="22dp"
+            app:srcCompat="@drawable/hfx" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="173dp"
+            android:text="Apeno"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="31dp"
+            android:text="Apeno © - 2018"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

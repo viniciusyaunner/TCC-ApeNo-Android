@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            app:srcCompat="@drawable/topico"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="328dp"
+            android:layout_height="124dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="102dp"
+            android:text="Verifica o funcionamento dos tópicos e seus usuários."
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:typeface="monospace"
+            app:fontFamily="monospace"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="289dp" />
+
+        <Button
+            android:id="@+id/voltartopsoft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:background="#5d5d5d"
+            android:text="Voltar"
+            android:textColor="#FFFFFF"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
