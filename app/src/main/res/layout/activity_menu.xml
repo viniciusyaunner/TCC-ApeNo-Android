@@ -12,8 +12,8 @@
 
         <Button
             android:id="@+id/empre"
-            android:layout_width="155dp"
-            android:layout_height="wrap_content"
+            android:layout_width="159dp"
+            android:layout_height="59dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="45dp"
@@ -31,7 +31,7 @@
             android:layout_height="59dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="186dp"
+            android:layout_marginTop="207dp"
             android:background="#565656"
             android:text="Software"
             android:textColor="#FFFFFF"
@@ -42,8 +42,8 @@
 
         <Button
             android:id="@+id/sob"
-            android:layout_width="105dp"
-            android:layout_height="65dp"
+            android:layout_width="159dp"
+            android:layout_height="59dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="88dp"
